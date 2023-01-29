@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/fuyuGT/CS7450-data/main/atl_weather_20to22.csv"
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Date", "timeUnit": "dayofyear"},
+    "y": {"field": "TempMax", "type": "quantitative"}
+  },
+  "config": {}
+}
