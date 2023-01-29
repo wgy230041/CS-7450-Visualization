@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Movies 2013-2016",
+  "width": 500, "height": 500,
+  "data": {"url": "https://raw.githubusercontent.com/fuyuGT/CS7450-data/main/movies13to16.csv"},
+   "mark": "rect",
+   "encoding": {
+      "x": {
+        "field": "Rating",
+        "type": "nominal"
+      },
+     "y": {
+       "field": "Year",
+       "type": "ordinal"
+      },
+     "color": {"aggregate": "mean", "field": "Gross"}
+    },       
+    "config": {
+        "axis": {"grid": true, "tickBand": "extent"}
+    }
+}
+

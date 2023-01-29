@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800, "height": 500,
+  "title": "Atlanta Weather ('20-'22)",
+  "data": {"url": "https://raw.githubusercontent.com/fuyuGT/CS7450-data/main/atl_weather_20to22.csv"},
+  "mark": "circle",
+  "encoding": {
+     "x": {"field": "Date", "timeUnit": "yearmonthdate"},
+     "y": {"field": "TempMax", "type": "quantitative"},
+     "color": {"field": "Weather",
+        "scale": {
+        "domain": ["sun", "drizzle", "rain", "snow"],
+        "range": ["#e7ba52", "#aec7e8", "#1f77b4", "#9467bd"]
+        }
+      },
+    "size": {"field": "Precip", "type": "quantitative",
+             "scale": {"range": [10,250]}
+            }
+   }
+}

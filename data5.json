@@ -1,0 +1,7 @@
+{
+  "data": {"url": "https://raw.githubusercontent.com/fuyuGT/CS7450-data/main/atl-weather-jan22.csv"},
+  "mark": "tick",
+  "encoding": {
+    "x": {"field": "precip", "type": "quantitative"}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "data": {
+    "values": [
+      {"name": "john", "eye": "blue", "height": 72, "weight": 180}, 
+      {"name": "mary", "eye": "brown", "height": 59, "weight": 162}, 
+      {"name": "bob", "eye": "hazel", "height": 67, "weight": 175}
+    ]
+  },
+  "mark": "point",
+  "encoding": {
+     "x": {"field": "weight", "type": "quantitative"},
+     "y": {"field": "height", "type": "quantitative"},
+     "color": {"field": "eye", "type": "nominal"}
+   }
+}
+

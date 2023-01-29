@@ -1,0 +1,19 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 800, "height": 500,
+ "data": {"url": "https://raw.githubusercontent.com/fuyuGT/CS7450-data/main/atl_weather_20to22.csv"},
+ "layer": [
+   { "mark": "line",
+     "encoding": {
+        "x": {"field": "Date", "timeUnit": "yearmonthdate"},
+        "y": {"field": "TempMax", "type": "quantitative"},
+      }
+   },
+   { "mark": "point",
+     "encoding": {
+        "x": {"field": "Date", "timeUnit": "yearmonthdate"},
+        "y": {"field": "TempMax", "type": "quantitative"}, 
+      }
+    }
+  ]
+}

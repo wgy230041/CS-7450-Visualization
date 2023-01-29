@@ -1,0 +1,19 @@
+{
+  "data": {"url": "https://raw.githubusercontent.com/fuyuGT/CS7450-data/main/atl-weather-jan22.csv"},
+  "mark": "bar",
+  "encoding": {
+  "x": {
+      "timeUnit": "month",
+      "field": "date",
+      "type": "ordinal"
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "weather",
+      "type": "nominal"
+    }
+  }
+}

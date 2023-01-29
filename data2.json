@@ -1,0 +1,15 @@
+{
+  "data": {
+    "values": [
+      {"name": "john", "eye": "blue", "height": 72}, 
+      {"name": "mary", "eye": "brown", "height": 59}, 
+      {"name": "bob", "eye": "hazel", "height": 67}
+    ]
+  },
+  "mark": "point",
+  "encoding": {
+     "x": {"field": "eye", "type": "nominal"},
+     "y": {"field": "height", "type": "quantitative"}
+   }
+}
+
