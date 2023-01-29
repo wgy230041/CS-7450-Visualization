@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/fuyuGT/CS7450-data/main/atl_weather_20to22.csv"
+  },
+  "mark": {"opacity": 0.3, "type": "area", "color": "#85C5A6"},
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "timeUnit": "yearmonth",
+      "axis": {"format": "%b", "title": null}
+    },
+    "y": {
+      "field": "TempMax",
+      "aggregate": "average",
+      "scale": {"domain": [25, 95]},
+      "title": "Avg. Temperature (°F)",
+      "axis": {"titleColor": "#85C5A6"}
+    },
+    "y2": {"field": "TempMin", "aggregate": "average"}
+  }
+}
