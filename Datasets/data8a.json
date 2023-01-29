@@ -9,6 +9,5 @@
   "encoding": {
     "x": {"field": "Date", "timeUnit": "dayofyear"},
     "y": {"field": "TempMax", "type": "quantitative"}
-  },
-  "config": {}
+  }
 }
