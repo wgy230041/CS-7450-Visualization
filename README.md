@@ -29,6 +29,9 @@ Information Visualization
  
 6. Tabler 
  ###   https://preview.tabler.io/#
+ 
+ 7.  Landing Page
+ ###   https://github.com/StartBootstrap/startbootstrap-landing-page
 
 
 ## Bootstrap Templates collection     https://github.com/mdbootstrap/bootstrap-templates
