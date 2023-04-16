@@ -4,5 +4,6 @@ Information Visualization
 
 # Bootstrap 
 ## Bootstrap Templates
-https://github.com/StartBootstrap/startbootstrap-grayscale
-https://startbootstrap.com/theme/sb-admin-2
+1. grayscale   https://github.com/StartBootstrap/startbootstrap-grayscale
+
+2. https://startbootstrap.com/theme/sb-admin-2
