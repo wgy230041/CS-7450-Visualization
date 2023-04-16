@@ -14,3 +14,6 @@ Information Visualization
 
 3. resume
  ### https://github.com/StartBootstrap/startbootstrap-resume
+
+4. blog
+ ### https://github.com/StartBootstrap/startbootstrap-clean-blog
